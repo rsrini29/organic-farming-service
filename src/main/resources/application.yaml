@@ -1,0 +1,8 @@
+spring:
+  port: 8080
+# IBM DB2 Database configuration
+  datasource:
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:db2://dashdb-txn-sbox-yp-dal09-14.services.dal.bluemix.net:50000/BLUDB
+    username: xqm29981
+    password: 9k54hd92j3j36@w0
